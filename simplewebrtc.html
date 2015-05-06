@@ -16,7 +16,8 @@
             // the id/element dom element that will hold remote videos
             remoteVideosEl: 'remotesVideos',
             // immediately ask for camera access
-            autoRequestMedia: true
+            autoRequestMedia: true,
+            url: 'https://immovise-signalmaster.herokuapp.com'
           });
 
           webrtc.createRoom(room, function (err, name) {
